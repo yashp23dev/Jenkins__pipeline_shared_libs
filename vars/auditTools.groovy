@@ -5,7 +5,7 @@ def call(){
      sh '''
        git version
        java -version
-       maven -version
+       mvn -version
        '''
   }
 }
